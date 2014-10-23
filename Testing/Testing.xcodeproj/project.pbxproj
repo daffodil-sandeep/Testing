@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF84A32B19F93A7C00AE30EF /* readMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF84A32919F93A7C00AE30EF /* readMe.txt */; };
+		BF84A32C19F93A7C00AE30EF /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF84A32A19F93A7C00AE30EF /* TemplateIcon2x.png */; };
 		BFBAA2DC19F92A85002F15B2 /* DevelopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAA2DB19F92A85002F15B2 /* DevelopViewController.m */; };
 		BFCE805519F90CE7006B28B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE805419F90CE7006B28B7 /* main.m */; };
 		BFCE805819F90CE7006B28B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE805719F90CE7006B28B7 /* AppDelegate.m */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF84A32919F93A7C00AE30EF /* readMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readMe.txt; sourceTree = "<group>"; };
+		BF84A32A19F93A7C00AE30EF /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
 		BFBAA2DA19F92A85002F15B2 /* DevelopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevelopViewController.h; sourceTree = "<group>"; };
 		BFBAA2DB19F92A85002F15B2 /* DevelopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevelopViewController.m; sourceTree = "<group>"; };
 		BFCE804F19F90CE7006B28B7 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +80,8 @@
 		BFCE804619F90CE7006B28B7 = {
 			isa = PBXGroup;
 			children = (
+				BF84A32919F93A7C00AE30EF /* readMe.txt */,
+				BF84A32A19F93A7C00AE30EF /* TemplateIcon2x.png */,
 				BFCE805119F90CE7006B28B7 /* Testing */,
 				BFCE807119F90CE7006B28B7 /* TestingTests */,
 				BFCE805019F90CE7006B28B7 /* Products */,
@@ -220,7 +226,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF84A32B19F93A7C00AE30EF /* readMe.txt in Resources */,
 				BFCE806419F90CE7006B28B7 /* Main.storyboard in Resources */,
+				BF84A32C19F93A7C00AE30EF /* TemplateIcon2x.png in Resources */,
 				BFCE806919F90CE7006B28B7 /* LaunchScreen.xib in Resources */,
 				BFCE808719F91857006B28B7 /* ReleaseViewController.xib in Resources */,
 				BFCE806619F90CE7006B28B7 /* Images.xcassets in Resources */,
