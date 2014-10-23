@@ -16,6 +16,8 @@
 		BFCE806619F90CE7006B28B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCE806519F90CE7006B28B7 /* Images.xcassets */; };
 		BFCE806919F90CE7006B28B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCE806719F90CE7006B28B7 /* LaunchScreen.xib */; };
 		BFCE807519F90CE7006B28B7 /* TestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE807419F90CE7006B28B7 /* TestingTests.m */; };
+		BFCE808619F91857006B28B7 /* ReleaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE808419F91857006B28B7 /* ReleaseViewController.m */; };
+		BFCE808719F91857006B28B7 /* ReleaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFCE808519F91857006B28B7 /* ReleaseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,9 @@
 		BFCE806E19F90CE7006B28B7 /* TestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCE807319F90CE7006B28B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCE807419F90CE7006B28B7 /* TestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingTests.m; sourceTree = "<group>"; };
+		BFCE808319F91857006B28B7 /* ReleaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReleaseViewController.h; sourceTree = "<group>"; };
+		BFCE808419F91857006B28B7 /* ReleaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReleaseViewController.m; sourceTree = "<group>"; };
+		BFCE808519F91857006B28B7 /* ReleaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReleaseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +102,9 @@
 				BFCE806719F90CE7006B28B7 /* LaunchScreen.xib */,
 				BFCE805919F90CE7006B28B7 /* Testing.xcdatamodeld */,
 				BFCE805219F90CE7006B28B7 /* Supporting Files */,
+				BFCE808319F91857006B28B7 /* ReleaseViewController.h */,
+				BFCE808419F91857006B28B7 /* ReleaseViewController.m */,
+				BFCE808519F91857006B28B7 /* ReleaseViewController.xib */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -209,6 +217,7 @@
 			files = (
 				BFCE806419F90CE7006B28B7 /* Main.storyboard in Resources */,
 				BFCE806919F90CE7006B28B7 /* LaunchScreen.xib in Resources */,
+				BFCE808719F91857006B28B7 /* ReleaseViewController.xib in Resources */,
 				BFCE806619F90CE7006B28B7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +238,7 @@
 			files = (
 				BFCE806119F90CE7006B28B7 /* DetailViewController.m in Sources */,
 				BFCE805E19F90CE7006B28B7 /* MasterViewController.m in Sources */,
+				BFCE808619F91857006B28B7 /* ReleaseViewController.m in Sources */,
 				BFCE805819F90CE7006B28B7 /* AppDelegate.m in Sources */,
 				BFCE805519F90CE7006B28B7 /* main.m in Sources */,
 				BFCE805B19F90CE7006B28B7 /* Testing.xcdatamodeld in Sources */,
@@ -422,6 +432,7 @@
 				BFCE807A19F90CE7006B28B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFCE807B19F90CE7006B28B7 /* Build configuration list for PBXNativeTarget "TestingTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +441,7 @@
 				BFCE807D19F90CE7006B28B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
