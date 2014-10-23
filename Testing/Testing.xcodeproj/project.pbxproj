@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFBAA2DC19F92A85002F15B2 /* DevelopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBAA2DB19F92A85002F15B2 /* DevelopViewController.m */; };
 		BFCE805519F90CE7006B28B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE805419F90CE7006B28B7 /* main.m */; };
 		BFCE805819F90CE7006B28B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCE805719F90CE7006B28B7 /* AppDelegate.m */; };
 		BFCE805B19F90CE7006B28B7 /* Testing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFCE805919F90CE7006B28B7 /* Testing.xcdatamodeld */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFBAA2DA19F92A85002F15B2 /* DevelopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevelopViewController.h; sourceTree = "<group>"; };
+		BFBAA2DB19F92A85002F15B2 /* DevelopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevelopViewController.m; sourceTree = "<group>"; };
 		BFCE804F19F90CE7006B28B7 /* Testing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCE805319F90CE7006B28B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCE805419F90CE7006B28B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				BFCE808319F91857006B28B7 /* ReleaseViewController.h */,
 				BFCE808419F91857006B28B7 /* ReleaseViewController.m */,
 				BFCE808519F91857006B28B7 /* ReleaseViewController.xib */,
+				BFBAA2DA19F92A85002F15B2 /* DevelopViewController.h */,
+				BFBAA2DB19F92A85002F15B2 /* DevelopViewController.m */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 				BFCE808619F91857006B28B7 /* ReleaseViewController.m in Sources */,
 				BFCE805819F90CE7006B28B7 /* AppDelegate.m in Sources */,
 				BFCE805519F90CE7006B28B7 /* main.m in Sources */,
+				BFBAA2DC19F92A85002F15B2 /* DevelopViewController.m in Sources */,
 				BFCE805B19F90CE7006B28B7 /* Testing.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
